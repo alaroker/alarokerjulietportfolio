@@ -26,6 +26,10 @@ body {
 
 }
 
+.projects-grid {
+  display:flex;
+}
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
