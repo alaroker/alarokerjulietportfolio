@@ -8,7 +8,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                  <Cell col={12}>
                      <img 
-                     src = "https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.0-9/p720x720/90651119_2929119493868991_2646154240401080320_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeFyjd4nf8ggdx8WdJZcOKPQn5SB8xrNCtWflIHzGs0K1Q3HPoEjVVbKMLjSwiGNwx7fMSV3DDXcb3xQJ_kpXIGI&_nc_ohc=OW3bfLzAoxIAX9FGtr0&_nc_ht=scontent.fnbo2-1.fna&_nc_tp=6&oh=a5beab66e90a0db21a5e5da496f893bd&oe=5EC39D03"
+                     src = "https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.0-9/90651119_2929119493868991_2646154240401080320_o.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=_lX696uQ6icAX-SAJps&_nc_ht=scontent.fnbo2-1.fna&oh=e114bcba85f8400a3fcf0dd52802c90f&oe=5EEC0C2D"
                      alt = "avatar"
                      className = "avatar-img"
                      />
