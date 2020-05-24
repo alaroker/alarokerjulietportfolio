@@ -30,10 +30,10 @@ class Landing extends Component {
                             <i className="fa fa-github-square" aria-hidden="true" />
                              </a>
 
-                              {/*FreeCodeCamp*/}
+                              {/* FreeCodeCamp
                               <a href="https://google.com" rel="noopener moreferrer" target="_blank">
                             <i className="fa fa-free-code-camp" aria-hidden="true" />
-                             </a>
+                             </a> */}
 
                              {/*Medium*/}
                              <a href="https://medium.com/@julietalaroker" rel="noopener moreferrer" target="_blank">

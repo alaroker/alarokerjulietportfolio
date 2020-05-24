@@ -14,11 +14,11 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>
-             Lorem Ipsum has been the industry's standard dummy<br></br>
-              text ever since the 1500s, when an unknown printer<br></br>
-               took a galley of type and scrambled it to make a<br></br>
-                type specimen book. It has survived not only five centuries</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy
+              text ever since the 1500s, when an unknown printer
+               took a galley of type and scrambled it to make a
+                type specimen book. It has survived not only five centuries.</p>
 
           </Cell>
           <Cell col={6}>
@@ -50,8 +50,8 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
+                    <i className="fa fa-linkedin" aria-hidden="true"/>
+                    My Linkedin
                   </ListItemContent>
                 </ListItem>
 

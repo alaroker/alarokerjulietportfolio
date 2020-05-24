@@ -21,7 +21,7 @@ class Projects extends Component {
              </CardText>
              <CardActions border>
         <Button colored>Github</Button>
-        <Button colored>CodePen</Button>
+        {/* <Button colored>CodePen</Button> */}
         <Button colored>LiveDemo</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -41,7 +41,7 @@ class Projects extends Component {
              </CardText>
              <CardActions border>
         <Button colored>Github</Button>
-        <Button colored>CodePen</Button>
+        {/* <Button colored>CodePen</Button> */}
         <Button colored>LiveDemo</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -62,7 +62,7 @@ class Projects extends Component {
              </CardText>
              <CardActions border>
         <Button colored>Github</Button>
-        <Button colored>CodePen</Button>
+        {/* <Button colored>CodePen</Button> */}
         <Button colored>LiveDemo</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
@@ -76,17 +76,18 @@ class Projects extends Component {
         )
     } else if (this.state.activeTab === 1){
         return(
-            <div><h1>This is Angular</h1></div>
+            <div><h1>This is Python</h1></div>
         )
 
     } else if (this.state.activeTab === 2){
         return(
-            <div><h1>This is VueJs</h1></div>
+            <div><h1>This is PHP</h1></div>
         )
 
-    } else if (this.state.activeTab === 3){
+    } 
+    else if (this.state.activeTab === 3){
         return(
-            <div><h1>This is MongoDB</h1></div>
+            <div><h1>This is Java</h1></div>
         )
 
     }
@@ -99,10 +100,10 @@ class Projects extends Component {
         return(
             <div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                 <Tab>React</Tab>
-                 <Tab>Angular</Tab>
-                 <Tab>VueJS</Tab>
-                 <Tab>MongoDB</Tab>
+                 <Tab>Javascript</Tab>
+                 <Tab>Python</Tab>
+                 <Tab>PHP</Tab>
+                 <Tab>Java</Tab>
                  
 
                 </Tabs>
